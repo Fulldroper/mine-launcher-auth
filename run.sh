@@ -1,0 +1,1 @@
+screen -S auth_server -dm bash -c "while true;do sudo node ./index.js;sleep 5;done;"
